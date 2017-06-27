@@ -8,33 +8,37 @@
 <body>
 
 <form action="">
-    Title <input type="text" name="title" placeholder="Select one or enter your own" required><br>
+    <div class="bold">Title</div>
+    <input type="text" name="title" placeholder="Select one or enter your own" required><br>
 
-    Name  <input type="text" name="name" placeholder="John Doe" required><br>
+    <div class="bold">Name</div>
+    <input type="text" name="name" placeholder="John Doe" required><br>
 
-    Phone number <input type="tel" name="phone" placeholder="+1 23456789"> (optional) <br>
+    <div class="bold"> Phone number</div>
+    <input type="tel" name="phone" placeholder="+1 23456789"> (optional) <br>
 
-    Email address  <input id="mail" type="email" name="email" value="add@sdood" required><br>
+    <div class="bold"> Email address</div>
+    <input id="mail" type="email" name="email" value="add@sdood" required><br>
 
-    Your website <input type="text" name="web" placeholder="www.yoursite.com"> (optional) <br>
+    <div class="bold"> Your website</div>
+    <input type="text" name="web" placeholder="www.yoursite.com"> (optional) <br>
 
-    Nr. of items to order
+    <div class="bold"> Nr. of items to order</div>
     <input type="number" name="quantity" min="1" max="10" value="6" required> (1-10) <br>
 
-    Length
+    <div class="bold"> Length</div>
     <input type="range" name="length" min="0" max="100" step="10" required> 1m (in 10cm increments)<br>
 
-    Delivery date
+    <div class="bold"> Delivery date</div>
     <input type="date" name="date" min="2010-12-16" value="2010-12-16" required> (minimum 16 December 2010)<br>
 
-    Time of delivery
+    <div class="bold"> Time of delivery</div>
     <input type="time" name="time" step="1800" value="21:00" required> (in 30 min increments)<br>
 
-    Color of the item
+    <div class="bold"> Color of the item</div>
     <input type="color" name="color" value="#ed1c24" required> (default red)<br>
 
     <input type="submit" value="Submit">
-
 
 
 </form>

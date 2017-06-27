@@ -4,12 +4,16 @@ body {
 
 form {
     background-color: #f1f1f1;
-    width: 800px;
+    width: 600px;
     height: 100%;
     margin: 30px auto;
     overflow: hidden;
     padding-left: 60px;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
 }
 
 input[type=text] {
@@ -17,5 +21,14 @@ input[type=text] {
 }
 
 input {
-    margin: 10px;
+    margin: 5px;
+}
+
+input[type=submit] {
+    border-radius: 10px;
+}
+
+.bold {
+    font-weight: bold;
+    display: inline;
 }
