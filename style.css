@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+form {
+    background-color: #f1f1f1;
+    width: 800px;
+    height: 100%;
+    margin: 30px auto;
+    overflow: hidden;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+input[type=text] {
+    width: 30%;
+}
+
+input {
+    margin: 10px;
+}
