@@ -8,20 +8,23 @@ form {
     height: 100%;
     margin: 30px auto;
     overflow: hidden;
-    padding-left: 60px;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding: 10px 0 10px 150px; /**ar teisingai lygiuoti su paddingais?**/
     font-family: Arial, sans-serif;
     font-size: 15px;
     border-radius: 5px;
-}
-
-input[type=text] {
-    width: 30%;
+position:relative;
 }
 
 input {
     margin: 5px;
+}
+
+input[type=text], input[type=tel], input[type=email] {
+    width: 200px;
+}
+
+input[type=date], input[type=time] {
+    width: 130px;
 }
 
 input[type=submit] {
@@ -31,4 +34,15 @@ input[type=submit] {
 .bold {
     font-weight: bold;
     display: inline;
+    text-align: right;
+margin-right: 5px;
+position:absolute; /**ar teisingai lygiuoti su position absolute?**/
+    right:450px;
+margin-top:5px;
+
 }
+
+#position {
+    margin: 0 150px;
+}
+
